@@ -15,5 +15,5 @@ void problemSolution1(float consumed_water) {
     else if (consumed_water > 60) {
         cost = 13 + ((consumed_water - 60) * 1.5) * (30 * 0.4) + (20 * 0.12) + (10 * 1.4);
     }
-    return cost;
+
 }
